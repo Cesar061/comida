@@ -1,0 +1,57 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+body{
+    text-align: center;
+    color: #fff;
+    background-color: rgba(22, 22, 22, 0.959);
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+h1{
+    padding: 1em;
+    font-size: 30px;
+}
+table{
+    width: 50vw;
+    height: 50vh;
+}
+table, td, tr,th{
+    border: 1px solid #fff;
+}
+table tr td:first-child{
+    background-color: #000;
+}
+table tr td{
+    padding: 1em;
+}
+table tr th{
+    padding: 1em;
+    background-color: rgb(90, 90, 90);
+}
+table td tr:hover{
+    background-color: red;
+}
+#page-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: .5em;
+}
+#page-2 a img{
+    width: 50px;
+    height: 50px;
+}
+#page-2 a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+#page-2 a:hover{
+    color: rgba(0, 217, 255, 0.685);
+}

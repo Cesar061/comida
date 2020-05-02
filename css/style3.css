@@ -1,0 +1,40 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+body{
+    text-align: center;
+    color: #fff;
+    background-color: rgba(22, 22, 22, 0.959);
+    text-align: center;
+}
+h1{
+    padding: 1em;
+    font-size: 30px;
+}
+ul{
+    padding: 1em;
+}
+ul li{
+    padding: .3em;
+}
+#page-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: .5em;
+}
+#page-2 a img{
+    width: 50px;
+    height: 50px;
+}
+#page-2 a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+#page-2 a:hover{
+    color: rgba(0, 217, 255, 0.685);
+}

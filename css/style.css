@@ -1,0 +1,49 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+}
+body{
+    text-align: center;
+    color: #fff;
+    background-color: rgba(22, 22, 22, 0.959);
+}
+.photo{
+    padding: .5em;
+    border: 1px solid rgb(255, 255, 255);
+    width: 350px;
+    height: 300px;
+}
+#name{
+    font-size: 45px;
+    padding: .2em;
+}
+.paragraph{
+    padding: 1em 4em;
+    text-align: justify;
+}
+#page-2{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: .5em;
+}
+#page-2 a img{
+    width: 50px;
+    height: 50px;
+}
+#page-2 a{
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+#page-2 a:hover{
+    color: rgba(0, 217, 255, 0.685);
+}
+h2{
+    padding: .5em;
+}
+ol li{
+    padding: .1em;
+}
